@@ -1,0 +1,31 @@
+// Employee class definition
+class Employee {
+    int empId;
+    String name;
+    double salary;
+
+    // Constructor to initialize employee details
+    public Employee(int empId, String name, double salary) {
+        this.empId = empId;
+        this.name = name;
+        this.salary = salary;
+    }
+
+    // Method to display employee details
+    public void displayDetails() {
+        System.out.println("----- Employee Details -----");
+        System.out.println("Employee ID: " + empId);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: $" + salary);
+    }
+}
+
+public class EmployeeDetailsDemo {
+    public static void main(String[] args) {
+        // Creating an employee object with preset values
+        Employee emp = new Employee(101, "Alice Smith", 75000.0);
+        
+        // Displaying the details
+        emp.displayDetails();
+    }
+}
