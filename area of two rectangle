@@ -1,0 +1,13 @@
+public class RectangleArea {
+    public static void main(String[] args) {
+        // Declare and initialize length and width
+        double length = 10.5;
+        double width = 5.2;
+        
+        // Calculate the area (Area = length * width)
+        double area = length * width;
+        
+        // Output the result
+        System.out.println("The area of the rectangle is: " + area);
+    }
+}
