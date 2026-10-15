@@ -1,0 +1,12 @@
+public class SquareOfNumber {
+    public static void main(String[] args) {
+        // Declare and initialize a number
+        double number = 5.5;
+        
+        // Calculate the square
+        double square = number * number;
+        
+        // Output the result
+        System.out.println("The square of " + number + " is: " + square);
+    }
+}
